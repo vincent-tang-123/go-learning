@@ -14,7 +14,8 @@ type xxx interface {
 
 // 空接口的应该
 // 1。空接口类型作为函数的参数
-// 2 空接口类型可以作为map 的 value
+// 2 空接口类型可以作为map 的 value类型
+
 
 
 func main() {
