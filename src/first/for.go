@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+   import "fmt"
 
 func main() {
 	// 示例1 死循环
