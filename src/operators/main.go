@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func init(){
+	// 初始化函数 会在 main 函数之前执行
+	fmt.Println(22222222222)
+}
+
 // go 语言中的运算符号
 func main() {
 	// 1 算数运算
