@@ -18,7 +18,7 @@ func newPerson(name, city string, age int8) person{
 	}
 }
 
-// 构造函数，实例化一个结构体 并返回指针
+// 构造函数，实例化一个结构体 并返回指针  节省内存 推荐
 func newPerson1(name, city string, age int8) *person{
 	return &person{
 		name: name,
