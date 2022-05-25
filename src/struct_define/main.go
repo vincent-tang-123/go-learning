@@ -5,7 +5,7 @@ import "fmt"
 // 定义结构体
 
 // 1
-//type person struct {
+//type person struct_01 {
 //	name string
 //	city string
 //	age int
@@ -50,7 +50,7 @@ func main() {
 	user.name = "小王子"
 	user.married = false
 
-	fmt.Printf("user: %#v\n", user) // user: struct { name string; married bool }{name:"小王子", married:false}
+	fmt.Printf("user: %#v\n", user) // user: struct_01 { name string; married bool }{name:"小王子", married:false}
 
 
 	// 结构体指针

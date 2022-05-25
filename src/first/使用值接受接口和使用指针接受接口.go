@@ -8,7 +8,7 @@ package main
 //	move()
 //}
 //
-//type person struct {
+//type person struct_01 {
 //	name string
 //	age int
 //}
